@@ -1,4 +1,5 @@
 # 48-bit Timestamp Generator (UUIDv7-style)
+Generated https://chatgpt.com/share/68b4b510-ef8c-8006-8a2f-3b086ca9e301
 
 This project implements a **fast 48-bit timestamp generator** encoded into **Base64URL** (8 characters).
 Goal: **performance + correctness + maintainability**.
