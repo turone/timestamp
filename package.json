@@ -7,17 +7,16 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/turone/application"
+    "url": "https://github.com/turone/timestamp.git"
   },
   "bugs": {
-    "url": "https://github.com/turone/application/issues"
+    "url": "https://github.com/turone/timestamp/issues"
   },
-  "homepage": "https://github.com/turone/application",
-  "main": "application/main.js",
+  "homepage": "https://github.com/turone/timestamp",
+  "main": "lib/tsgen.js",
   "types": "types/global.d.ts",
   "files": [
     "lib/",
-    "schemas/",
     "types/"
   ],
   "scripts": {
@@ -27,7 +26,7 @@
     "fix": "eslint . --fix && prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\""
   },
   "engines": {
-    "node": "^18.15 || 20 || 21 || 22"
+    "node": "^18.15 || 20 || 21 || 22 || 24"
   },
   "dependencies": {
     "metautil": "^5.2.3"
